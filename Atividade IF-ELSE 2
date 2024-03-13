@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+
+       Scanner sc = new Scanner(System.in);
+
+        int numero = 0;
+
+        System.out.println("Informe um numero: ");
+        numero = sc.nextInt();
+
+        if( numero % 2 == 0 ){
+            System.out.println("Este numero eh par");
+        }else{
+            System.out.println("Este numero eh impar");
+        }
+
+    }
+}
