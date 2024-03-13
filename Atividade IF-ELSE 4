@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+
+       Scanner sc = new Scanner(System.in);
+
+
+        int num1 = 0;
+        int num2 = 0;
+
+        System.out.println("Informe um numero inteiro: ");
+        num1 = sc.nextInt();
+        System.out.println("Informe outro numero inteiro: ");
+        num2 = sc.nextInt();
+
+        if(num1 > num2 ){
+            System.out.println("O primeiro numero eh maior");
+        }else{
+            System.out.println("O segundo numero eh maior");
+        }
+
+    }
+}
