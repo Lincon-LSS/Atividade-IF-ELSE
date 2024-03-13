@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+
+       Scanner sc = new Scanner(System.in);
+
+
+        String usuario = "usuario";
+        String senha = "senha123";
+
+        System.out.println("Informe seu usuario: ");
+        usuario = sc.nextLine();
+        System.out.println("Informe sua senha: ");
+        senha = sc.nextLine();
+
+        if( usuario.equals("usuario") || senha.equals ("senha123")){
+            System.out.println("Login efetuado com sucesso");
+        }else{
+            System.out.println("Login incorreto");
+        }
+    }
+}
